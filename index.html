@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css"/>
+    <script src = "index.js" defer></script>
+    <title>Louis Project Calculator</title>
+</head>
+<body>
+    <div class = "aligner">
+        <div class = "calculator">
+            <div id = "display">
+                <div id = "screenText"></div>
+            </div>
+            <div class = "buttonContainer">
+                <div class = "buttons">
+                    <button onclick="appendNumber(this)">7</button>
+                    <button onclick="appendNumber(this)">8</button>
+                    <button onclick="appendNumber(this)">9</button>
+                    <button onclick="appendOperator(this)">/</button>
+    
+                    <button onclick="appendNumber(this)">4</button>
+                    <button onclick="appendNumber(this)">5</button>
+                    <button onclick="appendNumber(this)">6</button>
+                    <button onclick="appendOperator(this)">x</button>
+    
+                    <button onclick="appendNumber(this)">1</button>
+                    <button onclick="appendNumber(this)">2</button>
+                    <button onclick="appendNumber(this)">3</button>
+                    <button onclick="appendOperator(this)">-</button>
+    
+                    <button onclick="appendNumber(this)" class = "zero">0</button>
+                    <button onclick="appendDecimalPoint(this)">.</button>
+                    <button onclick="appendOperator(this)">+</button>
+    
+                    <button onclick= "equate()" class = "equal">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
